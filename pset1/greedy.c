@@ -7,6 +7,7 @@ int main(void)
     float c=0.00;
     while(true)
     {
+        //Ask for change
         printf("How much change is owed?\n");
         c = GetFloat();
         if (c > 0.00)
